@@ -1,0 +1,15 @@
+<body>
+    <pad>
+        <vc>
+            <formline text="Text">
+                <textbox id="text" />
+            </formline>
+            <formline text="Style">
+                <dropdown id="style" />
+            </formline>
+            <formline>
+                <button icon="ok" id="show" text="Show" />
+            </formline>
+        </vc>
+    </pad>
+</body>

@@ -1,0 +1,7 @@
+<bind:dict id="bind">
+    <vc>
+        <formline text="{Default shell}">
+            <textbox bind="libfolder" />
+        </formline>
+    </vc>
+</bind:dict>
