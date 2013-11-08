@@ -5,21 +5,21 @@ from ajenti.ui import on
 from ajenti.ui.binder import Binder
 
 @plugin
-class PlayFrameworkClassConfigEditor (ClassConfigEditor):
-    title = _('PlayFramework')
+class PlayFramework2ClassConfigEditor (ClassConfigEditor):
+    title = _('PlayFramework2x')
     icon = 'play'
 
     def init(self):
         self.append(self.ui.inflate('play:config'))
 
 @plugin
-class PlayFramework (SectionPlugin):
-    default_classconfig = {'libfolder': '/home/bart/'}
-    classconfig_editor = PlayFrameworkClassConfigEditor
+class PlayFramework2 (SectionPlugin):
+    default_classconfig = {'libfolder.v2': '/home/bart/playapps/v2/'}
+    classconfig_editor = PlayFramework2ClassConfigEditor
     classconfig_root = True
 
     def init(self):
-        self.title = 'Play'
+        self.title = 'Play! Framework 2.x'
         self.icon = 'play'
         self.category = 'Applications'
 

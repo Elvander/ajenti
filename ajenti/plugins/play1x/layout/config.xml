@@ -1,0 +1,7 @@
+<bind:dict id="bind">
+    <vc>
+        <formline text="{play 1 app folder}">
+            <textbox bind="libfolder.v1" />
+        </formline>
+    </vc>
+</bind:dict>

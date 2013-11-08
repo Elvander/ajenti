@@ -3,9 +3,10 @@ from ajenti.plugins import *
 
 
 info = PluginInfo(
-    title='Play! Framework 2.x',
+    title='Play! Framework 1.x',
     icon='play',
     dependencies=[
+        BinaryDependency('play'),
         BinaryDependency('java'),
         PluginDependency('main'),
     ],

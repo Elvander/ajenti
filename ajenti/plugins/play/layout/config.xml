@@ -1,7 +1,7 @@
 <bind:dict id="bind">
     <vc>
-        <formline text="{Default shell}">
-            <textbox bind="libfolder" />
+        <formline text="{play app folder}">
+            <textbox bind="libfolder.v2" />
         </formline>
     </vc>
 </bind:dict>
